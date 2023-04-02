@@ -1,0 +1,14 @@
+.button {
+    background-color: #4CAF50; /* Set the background color */
+    border: none; /* Remove the border */
+    color: white; /* Set the text color */
+    padding: calc(var(--index)*0.3) calc(var(--index)*0.8); /* Add some padding */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove the underline */
+    font-size: calc(var(--index)*0.7); /* Set the font size */
+    border-radius: 6px; /* Add rounded corners */
+}
+.button-list {
+    display: flex;
+    justify-content: space-evenly;
+}
